@@ -22,8 +22,8 @@ app.get('/', (req,res) => {
                 labels: ["CS", "IT", "ECE", "EE", "ME", "BE"],
                 datasets: [
                     {
-                        label: '# of students',
-                        data: [105, 124, 78, 91, 62, 56],
+                        label: 'No. of students',
+                        data: [105, 124, 78, 91, 62, 100],
                         backgroundColor: ['rgba(255, 99, 132, 0.2)',
                             'rgba(54, 162, 235, 0.2)',
                             'rgba(255, 206, 86, 0.2)',
